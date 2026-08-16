@@ -76,6 +76,8 @@
   and viscosity does not contribute to the first nonzero opening jet.
 - Conceptual separation between pair forcing and modal energy transfer.
 
+- Reality-Twin Protected Leakage: for every noncollinear real cross-spin parent pair on protected shells, at least one of the twin outputs `A+B,A-B` has squared-radius distance at least `min(alpha,beta)^2` from the protected shell set, giving a quantitative lower bound on both protected multiplier symbols.
+- Protected Reset Trichotomy: a nondegenerate protected state must pay either positive opening acceleration `Y''`, positive opening composition defect, or else `F=0`; the zero-cost `F=0` endpoint evolves exactly by global heat decay and is regular.
 ## Structural reductions currently used
 
 - Dangerous critical transfer requires radial mismatch inside a helicity sector.

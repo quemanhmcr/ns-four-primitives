@@ -249,6 +249,10 @@ At a nondegenerate protected instant, actual nonlinear forcing obeys
 
 so growth acceleration and gate-opening acceleration are the first two moments of the exact post-cancellation output distribution. More generally, if the first nonzero protected forcing jet is `TF^(n-1)`, then the first nonzero defect derivative is the positive even derivative `Y^(2n)=binom(2n,n)||TF^(n-1)||^2`. See `25-protected-output-moment-hierarchy.md` and `26-protected-contact-hierarchy.md`.
 
+### Lemma C1n — Reality-twin reset trichotomy — proved
+
+Reality pairs every protected cross-spin interaction with a reflected twin. The parallelogram law forces one twin quantitatively away from both protected shell radii. Aggregating the resulting `TF` pair contributions yields a reset inequality: protected cross-spin angular mass must appear as opening acceleration or opening composition defect. At zero cost, every cross-spin pair is collinear, hence `F=0`, and the exact Navier-Stokes solution is pure heat decay. See `27-reality-twin-protected-leakage.md` and `28-protected-reset-trichotomy.md`.
+
 ### Lemma C2 — Global source / fragmentation rigidity — open
 
 The remaining obstruction is no longer an unidentified geometric channel. It is the global summation/compactness problem for two exact sources:
