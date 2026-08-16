@@ -442,3 +442,195 @@ The barrier and finite action give
 This does not by itself exclude unbounded `K`, because growth may occur in increasingly short bursts. It does, however, give a finite global budget **specifically on the times when the critical norm is increasing**, after all quadratic Euler protections have already been removed.
 
 The remaining task is to combine this positive-growth budget with the composition/planarity mechanisms to prevent arbitrarily fast reopening of `X` at successive scales.
+
+## 10. Sequential projection formula: spectral width minus helicity-protected width
+
+The optimal defect can be written as an exact refinement of the ordinary centered spectral variance.
+
+First remove only the energy direction. Set
+
+\[
+m:=\frac KE,
+\qquad
+s:=(\Lambda-m)u.
+\]
+
+Then
+
+\[
+\|s\|_2^2
+=Z-\frac{K^2}{E}.
+\]
+
+Next center the helicity direction against energy:
+
+\[
+\eta
+:=\omega-\frac HEu.
+\]
+
+We have
+
+\[
+\eta\perp u,
+\qquad
+\|\eta\|_2^2
+=Z-\frac{H^2}{E},
+\]
+
+and
+
+\[
+\langle s,\eta\rangle
+=C-\frac{HK}{E}.
+\]
+
+Because `span{u,omega}=span{u,eta}`, the optimal residual is exactly the component of `s` orthogonal to `eta`. Therefore
+
+\[
+\boxed{
+\mathcal Y
+=\left(Z-\frac{K^2}{E}\right)
+-
+\frac{
+\left(C-\frac{HK}{E}\right)^2
+}{
+Z-\frac{H^2}{E}
+}.
+}
+\]
+
+Multiplying by `E`,
+
+\[
+\boxed{
+\mathcal X
+=(EZ-K^2)
+-
+\frac{(EC-HK)^2}{EZ-H^2}.
+}
+\]
+
+Hence
+
+\[
+\boxed{
+0\le\mathcal X\le EZ-K^2.
+}
+\]
+
+The optimal protected defect is literally the ordinary radial spectral defect **minus the part explained by helicity covariance**.
+
+## 11. Alignment form of the sharpened barrier
+
+When `s` and `eta` are both nonzero, let `Theta` be their Hilbert-space angle:
+
+\[
+\cos\Theta
+:=
+\frac{\langle s,\eta\rangle}
+{\|s\|_2\|\eta\|_2}.
+\]
+
+Then the sequential projection identity becomes
+
+\[
+\boxed{
+\mathcal X
+=(EZ-K^2)\sin^2\Theta.
+}
+\]
+
+Define the ordinary normalized radial defect
+
+\[
+\delta_{\rm rad}
+:=1-\frac{K^2}{EZ}
+=\frac{EZ-K^2}{EZ}.
+\]
+
+The optimized unprotected fraction is therefore
+
+\[
+\boxed{
+\chi_{\rm esc}
+=\delta_{\rm rad}\sin^2\Theta.
+}
+\]
+
+Consequently the critical barrier from Section 8 sharpens to
+
+\[
+\boxed{
+|\nu_E|
+\le
+C_*\sqrt{K\,\delta_{\rm rad}}\,|\sin\Theta|.
+}
+\]
+
+Thus ordinary spectral width is not enough. The centered radial escape direction must also have a component transverse to the centered helicity direction. Alignment of those two centered directions depletes critical production even when the spectrum is broad.
+
+## 12. Statistical regression interpretation
+
+Normalize the Fourier energy into a probability distribution
+
+\[
+d\mu(k,\sigma)
+:=\frac{|z_\sigma(k)|^2}{E}.
+\]
+
+Let
+
+\[
+R:=|k|,
+\qquad
+S:=\sigma\in\{+1,-1\}.
+\]
+
+Then
+
+\[
+\frac KE=\mathbb E_\mu R,
+\qquad
+\frac HE=\mathbb E_\mu(SR),
+\]
+
+\[
+\frac ZE=\mathbb E_\mu R^2,
+\qquad
+\frac CE=\mathbb E_\mu(SR^2).
+\]
+
+Therefore
+
+\[
+EZ-K^2
+=E^2\operatorname{Var}_\mu(R),
+\]
+
+\[
+EZ-H^2
+=E^2\operatorname{Var}_\mu(SR),
+\]
+
+and
+
+\[
+EC-HK
+=E^2\operatorname{Cov}_\mu(R,SR).
+\]
+
+The critical optimal defect is exactly
+
+\[
+\boxed{
+\frac{\mathcal X}{E^2}
+=
+\operatorname{Var}(R)
+-
+\frac{\operatorname{Cov}(R,SR)^2}
+{\operatorname{Var}(SR)}.
+}
+\]
+
+Thus `X/E^2` is the residual variance of radial frequency after optimal linear regression against signed-helicity frequency. The two Euler conservation directions remove exactly the linearly predictable part; singular escape can use only the regression residual.
