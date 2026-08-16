@@ -175,8 +175,18 @@ The remaining issue is critical active-frame compactness: rule out escape throug
 
 Inside a normalized local frequency window with total critical mass `M`, any handoff carrying fixed normalized production has a critical parent product bounded below by `kappa_0/(C sqrt(M))`. A path with adjacent critical products `>= P` has length at most `M/P`. Hence unbounded active-frame diameter cannot be carried by uniformly strong handoffs at bounded local critical mass; the remaining compactness branch is flux fragmentation among many weak handoffs.
 
+### Lemma C1g — Global planarity tensor and volume determinant — proved
+
+The local plane geometry is carried globally by
+
+\[
+\mathsf A=\sum_k |k||z(k)|^2\,\widehat k\otimes\widehat k.
+\]
+
+Its minimum eigenvalue is `min_n ||partial_n u||_{H^{-1/2}}^2` and vanishes exactly on fixed Fourier-plane states. Its determinant is the Cauchy-Binet sum of weighted squared 3D volumes of all Fourier triples. Both quantities have exact viscous damping and commutator-form Euler production; see `16-global-planarity-defect.md` and `17-planarity-volume-determinant.md`.
+
 ### Lemma C2 — Plane propagation / plane turning — open
 
 Show that the large-additive-energy branch cannot preserve scale-critical positive flux across infinitely many generations without a non-summable loss in phase/projective compatibility.
 
-Lemma B, the parabolic split, and the exact pair-heat observability kernel are now established. The current research bottleneck is to control the nonlinear compensation cost between separated heat-rate classes and to prove that the locally preferred planes forced by resonant cancellation either lock into the globally regular planar endpoint or incur a quantitative plane-turning cost. A scale-invariant closure of those two branches, followed by a standard PDE continuation argument, is the current research program.
+The exact local plane-propagation mechanisms and their global planarity tensor are now established. The current bottleneck has moved to flux fragmentation / active-frame compactness and to control of the global Euler production of nonplanarity. A second possible closure route is minimal-counterexample compactness: force every zero-leakage critical profile into the planar rigidity class and contradict persistence of a singular critical element.

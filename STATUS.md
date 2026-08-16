@@ -32,6 +32,18 @@
 - Exact Resonant Diamond Cross-Closure Lemma: two equal-heat same-spin decompositions of one output with nonzero radial defect and different pair planes necessarily generate a quantitative same-spin cross-output coefficient; the equal-rate sphere is therefore not closed under plane-dispersed cancellation.
 - Zero-Defect Active-Frame Rigidity: on a connected nondegenerate finite handoff graph, vanishing normalized bridge/cross-closure obstructions force every handoff plane to equal one global plane; with edge defects `<= epsilon` and graph diameter `D`, all planes lie within `D arcsin(epsilon)` of a root plane.
 - Strong-Handoff Path Compactness: in a scale-normalized local packet with critical mass `M`, a path whose adjacent critical parent products are all at least `P` has length at most `M/P`; a handoff carrying normalized production `>= kappa_0` has `P >= kappa_0/(C sqrt(M))`.
+- Global critical planarity tensor
+  \\[
+  \mathsf A(u)=\sum_{k\ne0}\frac{k\otimes k}{|k|}|\widehat u(k)|^2,
+  \qquad \mathcal P=\lambda_{\min}(\mathsf A)
+  =\min_{|n|=1}\|\partial_nu\|_{\dot H^{-1/2}}^2,
+  \\]
+  with exact zero set equal to the fixed Fourier-plane (`2D3C`) class, modulated evolution, commutator collapse, and torus Riccati damping `D^+ P <= 2 Gamma_n-2 nu P^2/E`.
+- Exact planarity-volume determinant identity
+  \\[
+  \det\mathsf A=\sum_{i<j<\ell}m_im_jm_\ell[\widehat k_i\cdot(\widehat k_j\times\widehat k_\ell)]^2,
+  \\]
+  plus viscous damping `tr(cof(A) H) >= (K/E) det(A)` and cofactor-weighted commutator collapse of the Euler volume source.
 - Quantitative two-rate parabolic observability/control inequality on one scale-invariant parabolic window.
 - Exact resonant-sphere selection factor for same-spin inputs, including the `|sin 2 theta|` angular gate.
 - Exact complex Spin-Shadow law with double-angle pair-plane phase twist.
@@ -48,10 +60,10 @@
 
 ## Open targets
 
-1. **Many-rate clustering and control budget.** Extend the two-rate parabolic control estimate to separated rate clusters and bound the aggregate nonlinear control terms at critical scaling.
-2. **Plane propagation / plane turning.** Show that low-cost resonant-sphere cancellation either locks preferred local pair planes into a global plane or pays a quantitative projective turning cost.
-3. **Scale iteration.** Prove that the combined nonrectangular/rectangular structural cost cannot remain summable along an infinite critical cascade.
-4. **PDE closure.** Connect the resulting network rigidity to a standard continuation criterion for smooth 3D Navier–Stokes solutions.
+1. **Flux fragmentation / active-frame compactness.** In a bounded-mass normalized local packet carrying fixed positive critical production, show that fragmentation among many weak handoffs either yields a bounded effective active frame carrying a fixed flux fraction or forces quantitatively large additive/composition structure.
+2. **Many-rate dense-cancellation control.** Extend the two-rate parabolic estimate to rate clusters and control the aggregate nonlinear compensation terms without losing critical scaling.
+3. **Global planarity-volume production.** Control the positive Euler sources of `P` or `det A` using the exact helical/composition structure, or use a minimal-counterexample compactness argument to force a zero-defect planar critical profile.
+4. **PDE closure.** Connect the resulting global rigidity to a standard continuation / minimal-singularity argument for smooth 3D Navier-Stokes solutions.
 
 ## Explicit non-claims
 
