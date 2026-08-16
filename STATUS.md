@@ -23,6 +23,8 @@
   \mathcal L+\mathfrak D_{\rm comp}\ge\kappa_{\mathcal T}^2/(4\mathcal W_{\mathcal T}).
   \]
 - Exact parabolic transversality identity for two-pair cancellation; zero viscous curvature occurs exactly on rectangular additive diamonds.
+- Exact pair-heat observability theorem: persistent cancellation under pure viscosity splits class-by-class by equal pair heat rate; the unobservable classes are midpoint spheres.
+- Exact resonant-sphere selection factor for same-spin inputs, including the `|sin 2 theta|` angular gate.
 - Conceptual separation between pair forcing and modal energy transfer.
 
 ## Structural reductions currently used
@@ -34,8 +36,8 @@
 
 ## Open targets
 
-1. **Nonrectangular cancellation budget.** Convert parabolic transversality of generic additive diamonds into a time-integrated lower bound controlled by available nonlinear forcing.
-2. **Rectangular phase rigidity.** Analyze the heat-resonant rectangular network using shared Fourier phases and exact helical coefficient phases.
+1. **Inter-rate control budget.** Convert pair-heat observability into a scale-local time-integrated cost when nonlinear dynamics keeps distinct heat-rate classes cancelled.
+2. **Resonant-sphere phase rigidity.** Analyze intra-rate cancellation on midpoint spheres using shared Fourier phases and exact helical coefficient phases.
 3. **Scale iteration.** Prove that the combined nonrectangular/rectangular structural cost cannot remain summable along an infinite critical cascade.
 4. **PDE closure.** Connect the resulting network rigidity to a standard continuation criterion for smooth 3D Navier–Stokes solutions.
 

@@ -119,8 +119,13 @@ For two cancelling pair contributions on `a+b=c+d`, viscosity is transverse to t
 
 The zero-curvature exceptional set consists exactly of rectangular additive diamonds. See `06-parabolic-diamond-curvature.md`.
 
-### Lemma C — Rectangular Dense Composition Rigidity
+
+### Lemma B3 — Pair-heat observability — proved
+
+At a fixed output, pair products carry viscous rates `lambda_ab=|a|^2+|b|^2`. Persistent cancellation under pure viscosity is possible only after cancellation is resolved separately inside each equal-rate class. For `a+b=r`, these classes are spheres centered at `r/2`. See `07-pair-heat-observability.md`.
+
+### Lemma C — Resonant-Sphere Dense Composition Rigidity
 
 Show that the large-additive-energy branch cannot preserve scale-critical positive flux across infinitely many generations without a non-summable loss in phase/projective compatibility.
 
-Lemma B and the parabolic split are now exact. The current research bottleneck is to control the nonrectangular compensation cost in time and then prove rigidity of the heat-resonant rectangular network. A scale-invariant closure of those two branches, followed by a standard PDE continuation argument, is the current research program.
+Lemma B, the parabolic split, and the exact pair-heat observability kernel are now established. The current research bottleneck is to control the nonlinear compensation cost between separated heat-rate classes and then prove rigidity of the resonant midpoint-sphere network. A scale-invariant closure of those two branches, followed by a standard PDE continuation argument, is the current research program.
