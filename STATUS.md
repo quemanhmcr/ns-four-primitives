@@ -6,6 +6,12 @@
 
 ## Established / audited in this repository
 
+- Finite-network Helical Onsager H-flow: for triad-transfer matrix `A`, positive mobility `W`, covariance `C>0`, and `L=A^TWA`, the auxiliary flow `partial_s C=L(C^{-1})` preserves every diagonal network invariant, satisfies `S'=||W^(1/2)A C^{-1}||^2>=0`, and has decreasing thermodynamic curvature `R_H'= -||diag(C^{-1})L(C^{-1})||^2<=0`; entropy monotonicity plus fixed energy gives exact finite-network no-collapse. Stationary states satisfy `C^{-1} in ker A`; if `ker A=span{1,h}`, then `C_i^{-1}=alpha+beta h_i`.
+- Network V-curvature/protection duality: with `v_i=|h_i|`, `c_V=Av` is the discrete kink curvature; homochiral rows annihilate `v`, while a `(+,+,-)` row gives exactly `lambda.v=2p(k-q)`. The covariance-weighted distance of `v` to `ker A` is the network-protected critical defect, and it is monotone nondecreasing when convolution rows are added.
+- Exact deterministic/H-current split: for exact Euler current `J_E`, define `J_H=WA(n^{-1})`, `J_coh=J_E-J_H`. Then `dot n_E=L(n^{-1})+A^T J_coh` identically, and the coherence action `C_H=J_coh^T W^{-1}J_coh` gives `dot S_E >= D_H-sqrt(D_H C_H)`. Failure of the H-theorem direction therefore requires a coherence current comparable to the H-current in the natural current metric.
+- Full periodic Galerkin diagonal-invariant theorem: for every spherical cutoff containing `|k|^2<=2`, the full noncollinear two-helicity convolution network satisfies `ker A=span{1,h}`. The proof uses a local six-mode Walsh-affine lemma plus connectivity of the geometric lattice-triad graph; one shared geometric wavevector propagates both affine coefficients because it carries the two signed points `+|k|,-|k|`.
+- Clock-optimized H-projection: after minimizing over the artificial H-flow clock, the exact Euler current decomposes orthogonally as `J_E=gamma_* J_H+J_perp`, with `gamma_*=(dot S_E)_+/D_H`. The residual action is the time-scale-independent coherence measure; on the positive branch its fraction equals `sin^2 Theta_H` in the `W^{-1}` current metric.
+- Normalized geometric H-flow gap audit: with `h/N` and `w_tau=|g_tau|^2`, the clock-invariant ratio `eta=lambda_+/lambda_max` was audited on full Galerkin balls through `|k|^2<=9` and remained between about `0.125` and `0.258`. This supports, but does not prove, a uniform H-expansion theorem.
 - Rotational/Leray form of the incompressible Navier–Stokes nonlinearity.
 - Energy and helicity tangency of the Euler forcing.
 - Exact helical pair coefficient for `a+b=r`.
@@ -95,10 +101,12 @@
 
 ## Open targets
 
-1. **Optimal-source rigidity.** The Defect-Growth Ledger shows that any unbounded critical escape must satisfy `integral E (Gamma_esc)_+ dt = infinity`. Control this positive second transfer moment using the exact triad factorization, Spin-Shadow/Composition constraints, and protected-shell geometry. This is now the primary analytic bottleneck.
-2. **Complexity-drift / No-Zeno theorem.** Noetherian finite contact eliminates arbitrarily high reset flatness on a fixed shell pair. Show that a Zeno chain whose contact order grows must pay quantitatively for the required growth of shell cardinality / additive algebraic complexity.
-3. **Hidden-cancellation action.** On reset epochs with small opening acceleration, control the opening composition defect inside the heat-resonant cross-spin shell network; repeated cancellation must either densify, generate plane/cross closure, or fall into the zero-cost heat endpoint.
-4. **Periodic blow-up compactness / PDE closure.** Once source rigidity and complexity drift are controlled, connect the resulting bounds to a continuation or periodic minimal-singularity argument without importing an incompatible whole-space compactness theorem.
+1. **Coherence-to-Composition bridge.** Bound the clock-optimized orthogonal current action `C_perp=||J_perp||_{W^{-1}}^2` from below by the exact Spin-Shadow / additive / phase-plane composition defects on the coherent branch. This is now the primary deterministic bridge.
+2. **Uniform H-expansion theorem.** Prove or disprove `inf_N lambda_+(L_N)/lambda_max(L_N)>0` for the normalized full periodic helical Galerkin operators with geometric mobility `|g_tau|^2`. A positive theorem gives scale-uniform canonicalization; failure must expose an asymptotic near-invariant.
+3. **Renormalized packet H-functional.** Construct a moving-packet relative entropy/free-energy compatible with physical viscosity and boundary flux, rather than using the cutoff-dependent raw `sum log n_i`.
+4. **Thermal branch damping.** If the exact current stays close to the optimally clocked H-direction, transfer the finite-network canonicalization to a scale-local Navier-Stokes damping statement without assuming phenomenological eddy viscosity.
+5. **Coherent branch rigidity.** If the orthogonal current stays large, combine its phase representation with Spin-Shadow, cross-closure, plane rigidity, protected-reset trichotomy, and the Defect-Growth Ledger to preclude infinite critical escape.
+6. **Periodic blow-up compactness / PDE closure.** Once the two branches are controlled, connect the result to a continuation or periodic minimal-singularity argument.
 
 ## Explicit non-claims
 

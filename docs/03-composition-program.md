@@ -288,3 +288,39 @@ Thus critical escape and defect regeneration are the first two moments of the sa
 ### Lemma C1n — Noetherian finite-contact principle — proved for each fixed shell pair
 
 On a protected periodic shell pair there are only finitely many initial Fourier variables. The infinite collection of polynomial contact constraints `T F^(j)=0` generates a finitely generated ideal. Hence after a finite shell-dependent order, continued contact forces all higher contact jets to vanish; time analyticity then gives local protected persistence and `K'<0`. A Zeno sequence can increase contact order only by drifting to shell networks of increasing algebraic complexity. See `31-noetherian-contact-finiteness.md`.
+
+## 8. Auxiliary curvature-flow architecture
+
+Every finite active helical network now carries a canonical comparison flow. Let `A` be its exact transfer matrix, let `W>0` be a diagonal mobility, and put `L=A^TWA`. The **Helical Onsager H-flow** is
+
+\[
+\partial_s C=L(C^{-1}).
+\]
+
+It preserves every diagonal network invariant, increases `S=sum log C_i`, decreases the thermodynamic curvature
+
+\[
+\mathscr R_H=\frac12\|W^{1/2}A C^{-1}\|_2^2,
+\]
+
+and has an exact finite-network no-collapse bound. Its stationary precisions are exactly `ker A`.
+
+The same `ker A` controls critical protection of the V-potential `v=|h|`. Adding cross-triads shrinks `ker A`, so Composition densification monotonically removes hidden local protection.
+
+For the exact deterministic Euler current `J_E`, define
+
+\[
+J_H=WA(n^{-1}),
+\qquad
+J_{\rm coh}=J_E-J_H.
+\]
+
+Then the Euler transfer splits identically into an H-flow part and a coherence remainder. The new primary target is to control the current-space action
+
+\[
+\mathcal C_H=J_{\rm coh}^T W^{-1}J_{\rm coh}
+\]
+
+by the already established phase/additive Composition defects.
+
+See `32-helical-onsager-h-flow.md`, `33-network-v-curvature.md`, `34-deterministic-coherence-splitting.md`, and `35-galerkin-hflow-rank-audit.md`.
