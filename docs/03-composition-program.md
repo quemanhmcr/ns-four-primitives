@@ -98,20 +98,29 @@ Already exact at the pair-coefficient level:
 |C_{\rm shadow}|\ge|C_{\rm catalyst}|.
 \]
 
-### Lemma B — Leakage / Additive-Energy Dichotomy
+### Lemma B — Leakage / Composition-Defect Dichotomy — proved
 
-Quantify:
+The exact result in `05-leakage-composition-defect.md` is
 
 \[
-\text{critical escape}
-\Rightarrow
-\text{actual leakage}
-\quad\text{or}\quad
-\text{large weighted additive energy}.
+\boxed{\mathcal L+\mathfrak D_{\rm comp}
+\ge \kappa_{\mathcal T}^2/(4\mathcal W_{\mathcal T})}.
 \]
 
-### Lemma C — Dense Composition Rigidity
+Thus quantified positive critical production forces either actual shadow leakage or a positive gauge-invariant cancellation defect supported on additive collisions.
+
+### Lemma B2 — Parabolic transversality — proved
+
+For two cancelling pair contributions on `a+b=c+d`, viscosity is transverse to the cancellation manifold by
+
+\[
+\mathcal Q_\square=|a|^2+|b|^2-|c|^2-|d|^2.
+\]
+
+The zero-curvature exceptional set consists exactly of rectangular additive diamonds. See `06-parabolic-diamond-curvature.md`.
+
+### Lemma C — Rectangular Dense Composition Rigidity
 
 Show that the large-additive-energy branch cannot preserve scale-critical positive flux across infinitely many generations without a non-summable loss in phase/projective compatibility.
 
-A proof of B and C with scale-invariant constants, followed by a standard PDE continuation argument, is the current research program.
+Lemma B and the parabolic split are now exact. The current research bottleneck is to control the nonrectangular compensation cost in time and then prove rigidity of the heat-resonant rectangular network. A scale-invariant closure of those two branches, followed by a standard PDE continuation argument, is the current research program.

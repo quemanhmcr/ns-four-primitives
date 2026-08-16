@@ -18,6 +18,11 @@
   |C_P^s|/|C_P^{-s}|=(S+p)/(S-p)\ge1.
   \]
 - Numerical audit script reproducing these identities on random nondegenerate triads.
+- Exact Leakage / Composition-Defect Lemma:
+  \[
+  \mathcal L+\mathfrak D_{\rm comp}\ge\kappa_{\mathcal T}^2/(4\mathcal W_{\mathcal T}).
+  \]
+- Exact parabolic transversality identity for two-pair cancellation; zero viscous curvature occurs exactly on rectangular additive diamonds.
 - Conceptual separation between pair forcing and modal energy transfer.
 
 ## Structural reductions currently used
@@ -29,9 +34,9 @@
 
 ## Open targets
 
-1. **Weighted leakage/additive-energy dichotomy.** Convert a quantified amount of positive critical production into either actual shadow forcing or a quantitative lower bound on weighted additive energy.
-2. **Dense phase rigidity.** In the high-additive-energy branch, control cancellation through the shared Fourier phases and exact helical coefficient phases.
-3. **Scale iteration.** Prove that the structural cost from (1)–(2) cannot remain summable along an infinite critical cascade.
+1. **Nonrectangular cancellation budget.** Convert parabolic transversality of generic additive diamonds into a time-integrated lower bound controlled by available nonlinear forcing.
+2. **Rectangular phase rigidity.** Analyze the heat-resonant rectangular network using shared Fourier phases and exact helical coefficient phases.
+3. **Scale iteration.** Prove that the combined nonrectangular/rectangular structural cost cannot remain summable along an infinite critical cascade.
 4. **PDE closure.** Connect the resulting network rigidity to a standard continuation criterion for smooth 3D Navier–Stokes solutions.
 
 ## Explicit non-claims
