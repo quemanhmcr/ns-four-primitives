@@ -634,3 +634,91 @@ The critical optimal defect is exactly
 \]
 
 Thus `X/E^2` is the residual variance of radial frequency after optimal linear regression against signed-helicity frequency. The two Euler conservation directions remove exactly the linearly predictable part; singular escape can use only the regression residual.
+
+## 13. Exact spin-times-radial factorization of the regression determinant
+
+The statistical regression formula can be resolved completely into helicity-sector populations and within-spin radial variances.
+
+Let
+
+\[
+p_+:=\frac{E_+}{E},
+\qquad
+p_-:=\frac{E_-}{E},
+\qquad
+p_++p_-=1.
+\]
+
+For each nonempty sector define the conditional radial mean and variance
+
+\[
+m_\pm
+:=\mathbb E(R\mid S=\pm1)
+=\frac{K_\pm}{E_\pm},
+\]
+
+\[
+v_\pm
+:=\operatorname{Var}(R\mid S=\pm1)
+=\frac{W_\pm}{E_\pm}.
+\]
+
+A direct two-population calculation gives
+
+\[
+\boxed{
+\det\operatorname{Cov}(R,SR)
+=4p_+p_-
+\left(
+ p_-m_+^2v_-
++p_+m_-^2v_+
++v_+v_-
+\right).
+}
+\]
+
+On the other hand,
+
+\[
+\frac{\mathcal X}{E^2}
+=\frac{
+\det\operatorname{Cov}(R,SR)
+}{
+\operatorname{Var}(SR)
+},
+\]
+
+and
+
+\[
+\frac ZE=\mathbb E(R^2).
+\]
+
+Therefore the optimized unprotected fraction has the exact form
+
+\[
+\boxed{
+\chi_{\rm esc}
+=
+\frac{
+4p_+p_-
+\left(
+ p_-m_+^2v_-
++p_+m_-^2v_+
++v_+v_-
+\right)
+}{
+\operatorname{Var}(SR)\,\mathbb E(R^2)
+}.
+}
+\]
+
+This formula quantitatively unifies the two instantaneous critical-production gates:
+
+- the factor `p_+ p_-` measures coexistence of both helicity sectors at the energy level;
+- `v_+,v_-` measure radial width inside those sectors;
+- if either spin population disappears, the optimized defect vanishes;
+- if both within-spin variances vanish, the optimized defect vanishes;
+- if one sector is monochromatic but the other is broadband, the defect remains positive through the mean-frequency term of the opposite sector.
+
+Thus the Gram residual is not merely qualitatively equivalent to the separate spin/radial conditions. It is their exact regression coupling.
