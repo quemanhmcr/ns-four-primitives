@@ -227,8 +227,11 @@ Freeze the globally minimizing protected multiplier `T=Lambda-a-b curl`. On one 
 
 so it uses exactly the same radial transfer current as `dot K_triangle`. The coefficient is the failure of the opposite-spin defect weight to lie on the affine secant through the two same-spin endpoint weights. See `22-optimal-defect-triad-source.md`.
 
-### Lemma C2 — Plane propagation / plane turning — open
+### Lemma C2 — Global source / fragmentation rigidity — open
 
-Show that the large-additive-energy branch cannot preserve scale-critical positive flux across infinitely many generations without a non-summable loss in phase/projective compatibility.
+The remaining obstruction is no longer an unidentified geometric channel. It is the global summation/compactness problem for two exact sources:
 
-The exact local plane-propagation mechanisms and their global planarity tensor are now established. The current bottleneck has moved to flux fragmentation / active-frame compactness and to control of the global Euler production of nonplanarity. A second possible closure route is minimal-counterexample compactness: force every zero-leakage critical profile into the planar rigidity class and contradict persistence of a singular critical element.
+1. reopening of the optimal protected defect `X`, whose triad source has already been factored into the same heterochiral currents that produce `K`;
+2. regeneration of global nonplanarity (`P` or `det A`) against exact parabolic-frequency damping.
+
+If positive flux fragments among many weak handoffs instead of forming a strong finite path, that fragmentation must be converted into weighted additive/composition structure with scale-uniform constants. A clean closure may then proceed either by a direct source inequality or by a periodic blow-up compactness argument forcing a limiting protected/planar profile.

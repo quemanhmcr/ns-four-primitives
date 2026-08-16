@@ -156,6 +156,12 @@ The central open target is:
 - `docs/02-spin-shadow.md` — exact spin-shadow mechanism and its limits.
 - `docs/03-composition-program.md` — sparse leakage, additive structure, dense phase rigidity.
 - `docs/04-audit-protocol.md` — conventions, falsification rules, and verification discipline.
+- `docs/16-global-planarity-defect.md` — global critical planarity tensor and directional defect dynamics.
+- `docs/17-planarity-volume-determinant.md` — Cauchy-Binet 3D-volume entropy and exact parabolic-frequency damping.
+- `docs/18-two-spin-self-balancing.md` — exact two-spin source/damping balance.
+- `docs/20-within-spin-radial-gate.md` — exact radial gate and Riccati width damping.
+- `docs/21-optimal-protected-escape-defect.md` — Gram/Schur optimal escape residual after energy-helicity protection.
+- `docs/22-optimal-defect-triad-source.md` — triad factorization of optimal-defect reopening.
 - `scripts/verify_helical_coefficients.py` — numerical audit of the exact coefficient identities.
 - `STATUS.md` — current theorem/target boundary.
 
