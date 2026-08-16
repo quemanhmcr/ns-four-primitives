@@ -1,0 +1,277 @@
+# Exact FGR Renormalization in the Viscous Bath Metric
+
+**Claim level:** exact finite-dimensional operator theorem, applicable to every finite Fourier compression for which the frozen bath connection is skew-adjoint and the bath dissipation is positive definite. Infinite-bath uniformity remains open.
+
+The previous passive-bath notes introduced the frozen bath operator
+
+\[
+K_\varepsilon=\varepsilon D-A,
+\qquad A^*=-A,
+\qquad D=D^*>0,
+\]
+
+and the protected-to-bath coupling `B`. The positive self-energy was
+
+\[
+\Sigma_\varepsilon
+=B^*K_\varepsilon^{-*}(\varepsilon D)K_\varepsilon^{-1}B.
+\]
+
+This note shows that after the strong-coupling normalization `epsilon^{-1}`, the entire epsilon dependence can be diagonalized exactly in the viscous bath metric.
+
+## 1. Viscous whitening
+
+Define
+
+\[
+\boxed{
+C:=D^{-1/2}AD^{-1/2},
+\qquad
+G:=D^{-1/2}B.
+}
+\]
+
+Then
+
+\[
+C^*=-C
+\]
+
+and
+
+\[
+K_\varepsilon
+=D^{1/2}(\varepsilon I-C)D^{1/2}.
+\]
+
+Hence
+
+\[
+K_\varepsilon^{-1}
+=D^{-1/2}(\varepsilon I-C)^{-1}D^{-1/2}.
+\]
+
+Substituting into the self-energy gives
+
+\[
+\Sigma_\varepsilon
+=G^*(\varepsilon I-C)^{-*}\,\varepsilon I\,(\varepsilon I-C)^{-1}G.
+\]
+
+Because `C` is skew-adjoint, all functions of `C` commute and
+
+\[
+(\varepsilon I-C)^{-*}(\varepsilon I-C)^{-1}
+=(\varepsilon^2I-C^2)^{-1}.
+\]
+
+Therefore
+
+\[
+\boxed{
+\varepsilon^{-1}\Sigma_\varepsilon
+=G^*(\varepsilon^2I-C^2)^{-1}G.
+}
+\]
+
+This is exact.
+
+## 2. Bath normal-mode formula
+
+Write the spectral decomposition of the skew-adjoint bath connection as
+
+\[
+C\phi_j=i\mu_j\phi_j,
+\qquad \mu_j\in\mathbb R.
+\]
+
+For every protected vector `v`,
+
+\[
+\boxed{
+\varepsilon^{-1}
+\langle v,\Sigma_\varepsilon v\rangle
+=
+\sum_j
+\frac{|\langle\phi_j,Gv\rangle|^2}
+{\varepsilon^2+\mu_j^2}.
+}
+\]
+
+Thus the renormalized FGR damping is a positive Lorentzian response over exact bath normal modes.
+
+The strong-coupling parameter does not multiply an uncontrolled signed source. It only narrows the positive bath response around low connection frequency.
+
+## 3. Strong-coupling monotonicity
+
+Since `-C^2` is positive semidefinite,
+
+\[
+0<\varepsilon_1<\varepsilon_2
+\]
+
+implies
+
+\[
+(\varepsilon_1^2I-C^2)^{-1}
+\ge
+(\varepsilon_2^2I-C^2)^{-1}.
+\]
+
+Hence
+
+\[
+\boxed{
+\varepsilon_1^{-1}\Sigma_{\varepsilon_1}
+\ge
+\varepsilon_2^{-1}\Sigma_{\varepsilon_2}.
+}
+\]
+
+Therefore the theta-clock effective damping is monotone **stronger** as `epsilon=1/c` decreases. Strong RG coupling cannot by itself destroy the passive-bath gap.
+
+In particular, for every fixed reference `epsilon_0>0`,
+
+\[
+\boxed{
+0<\varepsilon\le\varepsilon_0
+\Longrightarrow
+\varepsilon^{-1}\Sigma_\varepsilon
+\ge
+\varepsilon_0^{-1}\Sigma_{\varepsilon_0}.
+}
+\]
+
+A lower bound proved at one finite reference coupling automatically propagates to all stronger couplings for the frozen packet.
+
+## 4. Dark set is independent of epsilon
+
+The operator `(epsilon^2 I-C^2)^{-1}` is strictly positive definite at every `epsilon>0`. Therefore
+
+\[
+\boxed{
+\ker\Sigma_\varepsilon
+=\ker G
+=\ker B
+\qquad(\varepsilon>0).
+}
+\]
+
+No repeated bath excursion and no strong-coupling limit creates a new exact dark direction. Exact darkness means direct Euler decoupling from the bath.
+
+This matches the protected-curvature tests: away from the already classified heat-line stratum, the only generic dark protected direction was the vorticity direction.
+
+## 5. Exact small-epsilon alternative
+
+Let `Pi_0` be the orthogonal projector onto `ker C`. On its orthogonal complement, `-C^2` is positive definite. The exact formula splits as
+
+\[
+\boxed{
+\varepsilon^{-1}\Sigma_\varepsilon
+=
+\varepsilon^{-2}G^*\Pi_0G
++
+G^*\Pi_0^\perp
+(\varepsilon^2I-C^2)^{-1}
+\Pi_0^\perp G.
+}
+\]
+
+Consequently, for a fixed protected vector `v`:
+
+1. if `Pi_0 Gv != 0`, then the renormalized damping diverges like `epsilon^{-2}`;
+2. if `Pi_0 Gv = 0`, then
+   \[
+   \boxed{
+   \lim_{\varepsilon\downarrow0}
+   \varepsilon^{-1}
+   \langle v,\Sigma_\varepsilon v\rangle
+   =
+   \langle Gv,(-C^2)^\dagger Gv\rangle,
+   }
+   \]
+   where the pseudoinverse acts on `(ker C)^perp`.
+
+Thus the small-epsilon limit is never lost through a cancellation between bath modes: it is finite positive or stronger, unless `Gv=0` exactly.
+
+## 6. A one-line quantitative lower bound
+
+Because
+
+\[
+(\varepsilon^2I-C^2)^{-1}
+\ge
+\frac1{\varepsilon^2+\|C\|^2}I,
+\]
+
+we have
+
+\[
+\boxed{
+\varepsilon^{-1}\Sigma_\varepsilon
+\ge
+\frac1{\varepsilon^2+\|C\|^2}
+\,B^*D^{-1}B.
+}
+\]
+
+This identifies the remaining static geometry exactly:
+
+- `B^*D^{-1}B` measures protected-to-bath coupling in the viscous metric;
+- `||C||` measures the conservative bath recirculation relative to viscous geometry.
+
+Strong coupling is no longer the difficult parameter. The hard theorem is a scale-uniform lower bound for this static pair, modulo the known safe/dark strata.
+
+## 7. Relation to the previous bracket tests
+
+At an exact reset the protected subspace is frozen to first order and
+
+\[
+Bu
+\]
+
+is the bath leakage generated by the same Euler connection that produced the curvature vector `TF`. The depth-one/depth-two Gramian tests sampled repeated powers of the skew connection directly.
+
+The exact FGR formula instead resums the entire frozen bath response through
+
+\[
+(\varepsilon^2I-C^2)^{-1}.
+\]
+
+The two pictures are therefore compatible:
+
+\[
+\boxed{
+\text{bracket controllability}
+\quad\leftrightarrow\quad
+\text{positive passive resolvent response}.
+}
+\]
+
+The resolvent formulation is preferable for the strong-coupling question because its epsilon dependence is now completely explicit and monotone.
+
+## 8. Revised theorem target
+
+For frozen normalized protected packets, the key estimate no longer needs to quantify every `epsilon -> 0` separately. It is enough to prove at one reference coupling, for example `epsilon_0=1`,
+
+\[
+\boxed{
+\langle v,\Sigma_1(u)v\rangle
++C\,\mathscr F_{\rm comp}(u,v)
+\ge
+\gamma\,d(u,\mathcal M_{\rm safe})^2
+\|v_{\omega^\perp}\|^2,
+}
+\]
+
+uniformly in physical scale and packet complexity.
+
+Strong-coupling monotonicity then gives the corresponding bound for every `0<epsilon<=1` after theta-clock renormalization.
+
+The unresolved issues are now:
+
+1. a scale-uniform static coupling/conditioning theorem in the infinite Fourier bath;
+2. quantitative control of near-dark cancellation by the deterministic Composition defect;
+3. extension from exact protected projectors to soft near-protected projectors in the non-autonomous Kato frame.
+
+The singular coupling itself is no longer an independent obstruction in the frozen passive-bath model.
