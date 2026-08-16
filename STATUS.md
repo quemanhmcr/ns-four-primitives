@@ -29,6 +29,7 @@
   |C_{\rm bridge}|\ge (r-k)\sin\theta_1\sin\theta_2|\sin\delta|/\sqrt2.
   \\]
 - Exact critical-amplitude shortcut identity: for a same-spin backbone with `a_j=sqrt(k_j)|z_j|`, adjacent products `pi_j=a_j a_{j+1}` and two-step products `beta_j=a_j a_{j+2}` satisfy `beta_j beta_{j+1}=pi_j pi_{j+2}`; uniformly strong adjacent products therefore forbid two consecutive weak two-step shortcuts.
+- Exact Resonant Diamond Cross-Closure Lemma: two equal-heat same-spin decompositions of one output with nonzero radial defect and different pair planes necessarily generate a quantitative same-spin cross-output coefficient; the equal-rate sphere is therefore not closed under plane-dispersed cancellation.
 - Quantitative two-rate parabolic observability/control inequality on one scale-invariant parabolic window.
 - Exact resonant-sphere selection factor for same-spin inputs, including the `|sin 2 theta|` angular gate.
 - Exact complex Spin-Shadow law with double-angle pair-plane phase twist.

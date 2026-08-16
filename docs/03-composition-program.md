@@ -161,6 +161,10 @@ For critical modal amplitudes `a_j=sqrt(k_j)|z_j|`, adjacent products `pi_j=a_j 
 
 Hence a backbone with `pi_j >= P` cannot have two consecutive skip-one products below `P`. Combined with the Plane-Turning Bridge Lemma, two consecutive definite plane turns cannot both be hidden by amplitude zig-zag. The remaining structured loophole is isolated weak-turn shortcuts and their coarse-grained propagation.
 
+### Lemma C1d — Resonant diamond cross-closure — proved
+
+Inside one equal-heat midpoint sphere, two same-spin decompositions with different pair planes force a quantitative cross-output same-spin coefficient unless the original radial/angular Selection factors degenerate. Thus heat resonance plus plane dispersion cannot remain closed at one output; avoiding leakage requires further convolution closure.
+
 ### Lemma C2 — Plane propagation / plane turning — open
 
 Show that the large-additive-energy branch cannot preserve scale-critical positive flux across infinitely many generations without a non-summable loss in phase/projective compatibility.
