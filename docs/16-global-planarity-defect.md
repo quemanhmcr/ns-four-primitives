@@ -411,3 +411,101 @@ The identity
 \]
 
 shows that planarity is naturally an anisotropic critical regularity variable rather than merely a support geometry. Existing one-directional-derivative regularity criteria provide an external consistency check for this choice of variable, but no such criterion is imported here as a closing theorem.
+
+## 12. Exact angular concentration and directional parabolic frequency
+
+Let `n_*` be a minimizing direction for the global planarity defect and write the modal critical masses
+
+\[
+m_k:=|k||\widehat u(k)|^2.
+\]
+
+Then
+
+\[
+\boxed{
+\mathcal P
+=\sum_{k\ne0}m_k(n_*\cdot\widehat k)^2.
+}
+\]
+
+For `0<alpha<=1`, define the critical mass outside the angular slab of half-width `alpha` around the preferred plane:
+
+\[
+K_{\rm off}(\alpha)
+:=\sum_{|n_*\cdot\widehat k|\ge\alpha}m_k.
+\]
+
+Since each summand in this region contributes at least `alpha^2 m_k` to `P`, Markov's inequality is exact here:
+
+\[
+\boxed{
+K_{\rm off}(\alpha)
+\le\frac{\mathcal P}{\alpha^2}.
+}
+\]
+
+Thus the normalized defect `P/K` has a direct geometric meaning: when it is small, most critical Fourier mass lies in a thin angular slab about one global plane.
+
+Now define the high-frequency off-plane mass
+
+\[
+K_{\rm off}(N,\alpha)
+:=\sum_{\substack{|k|\ge N\\
+|n_*\cdot\widehat k|\ge\alpha}}m_k.
+\]
+
+The directional viscous term is
+
+\[
+\mathcal H_{n_*}
+=\sum_k|k|^2m_k(n_*\cdot\widehat k)^2.
+\]
+
+Therefore
+
+\[
+\boxed{
+\mathcal H_{n_*}
+\ge N^2\alpha^2K_{\rm off}(N,\alpha).
+}
+\]
+
+At the minimizing direction, the Dini evolution consequently yields
+
+\[
+\boxed{
+D^+\mathcal P
+\le2\Gamma_{n_*}
+-2\nu N^2\alpha^2K_{\rm off}(N,\alpha).
+}
+\]
+
+This is an exact global high-frequency `Planarization / Damping` dichotomy.
+
+Whenever `P>0`, define the directional defect frequency
+
+\[
+\boxed{
+\Omega_{\rm pl}^2
+:=\frac{\mathcal H_{n_*}}{\mathcal P}
+=
+\frac{
+\sum_k|k|^2m_k(n_*\cdot\widehat k)^2
+}{
+\sum_km_k(n_*\cdot\widehat k)^2
+}.
+}
+\]
+
+It is the exact mean-square frequency of the nonplanar critical defect. The scalar evolution becomes
+
+\[
+\boxed{
+D^+\mathcal P
+\le2\Gamma_{n_*}
+-2\nu\Omega_{\rm pl}^2\mathcal P.
+}
+\]
+
+Thus off-plane defect transported to scale `N` is damped on the natural parabolic time `O((nu N^2)^{-1})`. Avoiding this cost requires either rapid Euler regeneration or angular concentration of the high-frequency critical mass toward the preferred plane.
