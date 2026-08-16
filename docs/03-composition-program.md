@@ -253,11 +253,14 @@ so growth acceleration and gate-opening acceleration are the first two moments o
 
 Reality pairs every protected cross-spin interaction with a reflected twin. The parallelogram law forces one twin quantitatively away from both protected shell radii. Aggregating the resulting `TF` pair contributions yields a reset inequality: protected cross-spin angular mass must appear as opening acceleration or opening composition defect. At zero cost, every cross-spin pair is collinear, hence `F=0`, and the exact Navier-Stokes solution is pure heat decay. See `27-reality-twin-protected-leakage.md` and `28-protected-reset-trichotomy.md`.
 
-### Lemma C2 — Global source / fragmentation rigidity — open
+### Lemma C2 — No-Zeno protected reset — open
 
-The remaining obstruction is no longer an unidentified geometric channel. It is the global summation/compactness problem for two exact sources:
+The primary remaining obstruction is temporal, not geometric. Exact protected states are now classified by a trichotomy: opening acceleration, hidden composition cost, or the globally regular heat endpoint. Positive critical growth later requires the optimized critical defect to cross the barrier
 
-1. reopening of the optimal protected defect `X`, whose triad source has already been factored into the same heterochiral currents that produce `K`;
-2. regeneration of global nonplanarity (`P` or `det A`) against exact parabolic-frequency damping.
+\[
+\mathcal X\ge (\nu^2/C_*^2)K.
+\]
 
-If positive flux fragments among many weak handoffs instead of forming a strong finite path, that fragmentation must be converted into weighted additive/composition structure with scale-uniform constants. A clean closure may then proceed either by a direct source inequality or by a periodic blow-up compactness argument forcing a limiting protected/planar profile.
+The missing theorem must show that repeated transitions from near-protected geometry to this barrier cannot occur on a summable sequence of time intervals while all opening/composition/nonplanarity actions remain within their finite budgets. This is the current **No-Zeno Protected Reset** problem.
+
+Flux fragmentation and global nonplanarity remain secondary branches only insofar as they are mechanisms by which a reset might try to make its cost arbitrarily small.

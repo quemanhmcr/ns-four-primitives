@@ -78,6 +78,7 @@
 
 - Reality-Twin Protected Leakage: for every noncollinear real cross-spin parent pair on protected shells, at least one of the twin outputs `A+B,A-B` has squared-radius distance at least `min(alpha,beta)^2` from the protected shell set, giving a quantitative lower bound on both protected multiplier symbols.
 - Protected Reset Trichotomy: a nondegenerate protected state must pay either positive opening acceleration `Y''`, positive opening composition defect, or else `F=0`; the zero-cost `F=0` endpoint evolves exactly by global heat decay and is regular.
+- Regression-shell structure of the optimal protected defect: `|b|<=1`, `0<=a<=2K/E`; away from the pure-spin boundary, `r_+=(1-b)(Lambda-m_+)u_+`, `r_-=(1+b)(Lambda-m_-)u_-` for positive optimal roots `m_+=a/(1-b)`, `m_-=a/(1+b)`, giving exact near-protected annular concentration.
 ## Structural reductions currently used
 
 - Dangerous critical transfer requires radial mismatch inside a helicity sector.
@@ -87,10 +88,10 @@
 
 ## Open targets
 
-1. **Global protected-defect source rigidity.** Sum the exact triad factorization of `Gamma_esc` over the full convolution network carrying positive critical flux, using Spin-Shadow / Composition constraints to prevent arbitrarily fast reopening of the optimal defect `X`.
-2. **Global nonplanarity source rigidity.** Control `Xi_vol` (or the minimum-eigenvalue source) strongly enough that high-frequency nonplanar volume cannot be regenerated at its parabolic `N^2` damping rate indefinitely.
-3. **Flux fragmentation / many-rate compactness.** If fixed positive flux is split among many individually weak handoffs, convert that fragmentation into quantitative additive/composition structure and extend the two-rate observability estimate to rate clusters without losing critical scaling.
-4. **Periodic blow-up compactness and PDE closure.** Show that any hypothetical singular sequence avoiding the three source costs converges, after the appropriate periodic blow-up normalization, to one of the exact safe geometries (protected or planar), then close with a rigorous continuation/singularity-stability argument.
+1. **No-Zeno protected-reset theorem.** Convert the exact protected reset trichotomy and contact hierarchy into a scale-invariant lower bound on the time/action needed to reopen the optimal defect from near-zero to the positive-growth barrier `X >= (nu^2/C_*^2)K`. This is now the primary bottleneck.
+2. **Hidden-cancellation action.** On reset epochs with small opening acceleration, control the time evolution of the opening composition defect inside the heat-resonant cross-spin shell network; repeated cancellation must either densify, generate plane/cross closure, or fall into the zero-cost heat endpoint.
+3. **Global nonplanarity source rigidity.** Control `Xi_vol` strongly enough that high-frequency nonplanar volume cannot be regenerated indefinitely against exact `N^2` damping.
+4. **Periodic blow-up compactness / PDE closure.** If no-Zeno and source rigidity are obtained, connect them to a continuation or minimal-singularity argument in the periodic setting without importing an incompatible `R^3` compactness theorem.
 
 ## Explicit non-claims
 
