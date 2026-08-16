@@ -124,6 +124,10 @@ The zero-curvature exceptional set consists exactly of rectangular additive diam
 
 At a fixed output, pair products carry viscous rates `lambda_ab=|a|^2+|b|^2`. Persistent cancellation under pure viscosity is possible only after cancellation is resolved separately inside each equal-rate class. For `a+b=r`, these classes are spheres centered at `r/2`. See `07-pair-heat-observability.md`.
 
+### Lemma B4 — Two-rate parabolic control cost — proved
+
+For two heat-rate class resultants separated by `delta N^2`, hidden cancellation over a parabolic window `T=c/(nu N^2)` forces either observed forcing action or nonlinear control action with constants independent of `N`. See `10-two-rate-control-cost.md`.
+
 ### Lemma C1 — Complex Spin-Shadow plane rigidity — proved
 
 For same-spin pairs sharing one output, the full complex ratio is

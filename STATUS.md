@@ -24,6 +24,7 @@
   \]
 - Exact parabolic transversality identity for two-pair cancellation; zero viscous curvature occurs exactly on rectangular additive diamonds.
 - Exact pair-heat observability theorem: persistent cancellation under pure viscosity splits class-by-class by equal pair heat rate; the unobservable classes are midpoint spheres.
+- Quantitative two-rate parabolic observability/control inequality on one scale-invariant parabolic window.
 - Exact resonant-sphere selection factor for same-spin inputs, including the `|sin 2 theta|` angular gate.
 - Exact complex Spin-Shadow law with double-angle pair-plane phase twist.
 - Exact phase-plane tradeoff and projective plane-order tensor identity.
@@ -39,7 +40,7 @@
 
 ## Open targets
 
-1. **Inter-rate control budget.** Convert pair-heat observability into a scale-local time-integrated cost when nonlinear dynamics keeps distinct heat-rate classes cancelled.
+1. **Many-rate clustering and control budget.** Extend the two-rate parabolic control estimate to separated rate clusters and bound the aggregate nonlinear control terms at critical scaling.
 2. **Plane propagation / plane turning.** Show that low-cost resonant-sphere cancellation either locks preferred local pair planes into a global plane or pays a quantitative projective turning cost.
 3. **Scale iteration.** Prove that the combined nonrectangular/rectangular structural cost cannot remain summable along an infinite critical cascade.
 4. **PDE closure.** Connect the resulting network rigidity to a standard continuation criterion for smooth 3D Navier–Stokes solutions.
