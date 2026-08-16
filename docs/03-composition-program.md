@@ -185,6 +185,26 @@ The local plane geometry is carried globally by
 
 Its minimum eigenvalue is `min_n ||partial_n u||_{H^{-1/2}}^2` and vanishes exactly on fixed Fourier-plane states. Its determinant is the Cauchy-Binet sum of weighted squared 3D volumes of all Fourier triples. Both quantities have exact viscous damping and commutator-form Euler production; see `16-global-planarity-defect.md` and `17-planarity-volume-determinant.md`.
 
+### Lemma C1h — Two-spin and joint danger balances — proved
+
+The global unsigned two-spin defect `B=K^2-H^2=4K_+K_-` satisfies
+
+\[
+\mathcal B'=4K\kappa-2\nu(\Omega_+^2+\Omega_-^2)\mathcal B.
+\]
+
+Combining it with the planarity determinant gives `J=sqrt(B)(det A)^(1/3)`, a finite-action scalar vanishing on either the pure-spin or planar boundary and damped at the sum of the two spin and volume parabolic frequencies. See `18-two-spin-self-balancing.md` and `19-joint-danger-action.md`.
+
+### Lemma C1i — Within-spin radial gate — proved
+
+For each helicity sector, center the radial spectrum at `m_sigma=K_sigma/E_sigma`. The scale-critical defect
+
+\[
+\mathcal R_{\rm rad}=\sum_\sigma(E_\sigma Z_\sigma-K_\sigma^2)
+\]
+
+vanishes only when both sectors are individually monochromatic; in that case the exact energy/helicity collapse forces `kappa=0`. The widths satisfy exact viscous Riccati balances. Combining this radial gate with the spin and planarity factors gives a finite-action three-gate geometry variable. See `20-within-spin-radial-gate.md`.
+
 ### Lemma C2 — Plane propagation / plane turning — open
 
 Show that the large-additive-energy branch cannot preserve scale-critical positive flux across infinitely many generations without a non-summable loss in phase/projective compatibility.

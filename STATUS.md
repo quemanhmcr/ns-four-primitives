@@ -49,6 +49,13 @@
 - Exact complex Spin-Shadow law with double-angle pair-plane phase twist.
 - Exact phase-plane tradeoff and projective plane-order tensor identity.
 - Fixed Fourier-plane (`2D3C`) endpoint reduction.
+- Exact two-spin self-balancing law `B=K^2-H^2=4K_+K_-`:
+  \\[
+  \mathcal B'=4K\kappa-2\nu(\Omega_+^2+\Omega_-^2)\mathcal B.
+  \\]
+- Joint spin-volume danger action `J=sqrt(B)(det A)^(1/3)`, with `0<=J<=K^2/3`, finite lifetime action, and exact combined source/parabolic-damping balance.
+- Exact within-spin radial gate `R_rad=sum_sigma(E_sigma Z_sigma-K_sigma^2)`: `R_rad=0` forces `kappa=0`; each sector width has exact balance `W_sigma'=2 Gamma_sigma-2 nu H_sigma` and Riccati damping, while `int R_rad dt <= E(0)^2/(4 nu)`.
+- Full three-gate geometry factor `G=sqrt(r_rad) sqrt(b_spin) V^(1/3)` and finite-action scalar `J_full=(K^2/3)G`, vanishing on the radial, pure-spin, or planar safe/depleted boundaries.
 - Conceptual separation between pair forcing and modal energy transfer.
 
 ## Structural reductions currently used
