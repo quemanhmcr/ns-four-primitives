@@ -4,11 +4,13 @@ The complex Spin-Shadow law identifies local Fourier-plane concentration as the 
 
 ## 1. Fixed Fourier plane
 
-Suppose the Fourier support of a divergence-free solution lies in a fixed two-dimensional linear plane through the origin. After a rigid rotation, take this plane to be
+Suppose the Fourier support of a divergence-free solution lies in a fixed two-dimensional linear plane through the origin. On `R^3`, after a rigid rotation, take this plane to be
 
 \[
 k_3=0.
 \]
+
+On the periodic domain, interpret the statement for a rank-two lattice plane and use coordinates adapted to its two lattice directions; the reduced horizontal operator may be anisotropic, which does not change the two-dimensional regularity mechanism.
 
 Then the velocity is independent of `x_3` and can be written
 
