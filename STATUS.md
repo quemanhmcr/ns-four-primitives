@@ -62,6 +62,12 @@
   K'>0\Rightarrow E\|r\|_2^2>(\nu^2/C_*^2)K.
   \]
 - Exact triad source factorization for the optimal defect: homochiral recharge carries a three-radial-difference Vandermonde; heterochiral recharge carries the same `(q-k)J` current as critical production, with an explicit signed-spectral secant-curvature coefficient.
+- Protected-manifold acceleration: on the nondegenerate optimal-defect zero set, `a'=b'=0`, `r_t=TF`, and
+  \\[
+  \mathcal Y''=2\|TF\|_2^2,
+  \\]
+  so zero opening acceleration is exactly the two-shell convolution-closure condition `TF=0`; viscosity contributes no opening acceleration.
+- General arbitrary-helicity coefficient magnitude and protected cross-spin leakage: same-spin pairs vanish pairwise on the protected shells; every noncollinear cross-spin pair creates nonzero `TF` in at least one output helicity unless the two shell radii and output radius are all equal.
 - Conceptual separation between pair forcing and modal energy transfer.
 
 ## Structural reductions currently used

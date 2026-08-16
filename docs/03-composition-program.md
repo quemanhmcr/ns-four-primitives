@@ -227,6 +227,16 @@ Freeze the globally minimizing protected multiplier `T=Lambda-a-b curl`. On one 
 
 so it uses exactly the same radial transfer current as `dot K_triangle`. The coefficient is the failure of the opposite-spin defect weight to lie on the affine secant through the two same-spin endpoint weights. See `22-optimal-defect-triad-source.md`.
 
+### Lemma C1l — Protected-manifold acceleration and leakage — proved
+
+On the nondegenerate zero set of the optimal protected defect, the minimizing coefficients are stationary to first order and
+
+\[
+r_t=TF,\qquad \mathcal Y''=2\|TF\|_2^2.
+\]
+
+Thus zero acceleration is exactly `TF=0`, a two-shell convolution-closure condition. Same-spin pair forcing vanishes identically on those shells, so only cross-spin pairs can reopen the defect. The general helical coefficient shows that an individual noncollinear cross-spin pair is acceleration-invisible only in the equal-shell/equilateral-radius geometry; otherwise avoiding opening requires multi-pair cancellation. See `23-protected-manifold-acceleration.md` and `24-general-helical-and-protected-leakage.md`.
+
 ### Lemma C2 — Global source / fragmentation rigidity — open
 
 The remaining obstruction is no longer an unidentified geometric channel. It is the global summation/compactness problem for two exact sources:
