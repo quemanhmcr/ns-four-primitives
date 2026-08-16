@@ -151,6 +151,16 @@ For consecutive same-spin backbone modes `K,Q,R`, a projective turn `delta` betw
 
 Thus definite turning of two nondegenerate local handoffs creates an order-frequency shortcut coupling. Avoiding actual bridge leakage requires applying the same full-output composition machinery at the bridge output.
 
+### Lemma C1c — Critical shortcut density — proved
+
+For critical modal amplitudes `a_j=sqrt(k_j)|z_j|`, adjacent products `pi_j=a_j a_{j+1}` and skip-one products `beta_j=a_j a_{j+2}` obey
+
+\[
+\beta_j\beta_{j+1}=\pi_j\pi_{j+2}.
+\]
+
+Hence a backbone with `pi_j >= P` cannot have two consecutive skip-one products below `P`. Combined with the Plane-Turning Bridge Lemma, two consecutive definite plane turns cannot both be hidden by amplitude zig-zag. The remaining structured loophole is isolated weak-turn shortcuts and their coarse-grained propagation.
+
 ### Lemma C2 — Plane propagation / plane turning — open
 
 Show that the large-additive-energy branch cannot preserve scale-critical positive flux across infinitely many generations without a non-summable loss in phase/projective compatibility.
