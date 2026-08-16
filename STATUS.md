@@ -74,6 +74,13 @@
   \mathcal Y^{(2n)}=\binom{2n}{n}\|TF^{(n-1)}\|_2^2>0,
   \\]
   and viscosity does not contribute to the first nonzero opening jet.
+- Exact Defect-Growth Ledger: with `beta=2 nu^2/C_*^2` and `L=X+beta K`,
+  \\[
+  \mathscr L'\le 2E\Gamma_{\rm esc}-2\nu E\|\Lambda r\|_2^2-\nu(Z/E)\mathcal X.
+  \\]
+  Hence unbounded critical escape forces `integral E (Gamma_esc)_+ dt = infinity`, and equivalently infinite excess action of the defect-regeneration coefficient `nu_R=(E/Z)(Gamma_esc/Y)`.
+- Exact global transfer-moment representation: if `tau_i` are helical modal Euler energy-transfer rates and `t_i=|k_i|-a-b sigma_i|k_i|`, then `2 kappa=sum_i t_i tau_i` and `2 Gamma_esc=sum_i t_i^2 tau_i`.
+- Noetherian finite-contact principle on each fixed nondegenerate protected shell pair: the infinite family of reset-contact constraints `T F^(j)=0` is finitely determined in the finite polynomial ring of shell amplitudes. Thus arbitrarily high finite contact order at fixed shell geometry is impossible unless the protected branch persists locally.
 - Conceptual separation between pair forcing and modal energy transfer.
 
 - Reality-Twin Protected Leakage: for every noncollinear real cross-spin parent pair on protected shells, at least one of the twin outputs `A+B,A-B` has squared-radius distance at least `min(alpha,beta)^2` from the protected shell set, giving a quantitative lower bound on both protected multiplier symbols.
@@ -88,10 +95,10 @@
 
 ## Open targets
 
-1. **No-Zeno protected-reset theorem.** Convert the exact protected reset trichotomy and contact hierarchy into a scale-invariant lower bound on the time/action needed to reopen the optimal defect from near-zero to the positive-growth barrier `X >= (nu^2/C_*^2)K`. This is now the primary bottleneck.
-2. **Hidden-cancellation action.** On reset epochs with small opening acceleration, control the time evolution of the opening composition defect inside the heat-resonant cross-spin shell network; repeated cancellation must either densify, generate plane/cross closure, or fall into the zero-cost heat endpoint.
-3. **Global nonplanarity source rigidity.** Control `Xi_vol` strongly enough that high-frequency nonplanar volume cannot be regenerated indefinitely against exact `N^2` damping.
-4. **Periodic blow-up compactness / PDE closure.** If no-Zeno and source rigidity are obtained, connect them to a continuation or minimal-singularity argument in the periodic setting without importing an incompatible `R^3` compactness theorem.
+1. **Optimal-source rigidity.** The Defect-Growth Ledger shows that any unbounded critical escape must satisfy `integral E (Gamma_esc)_+ dt = infinity`. Control this positive second transfer moment using the exact triad factorization, Spin-Shadow/Composition constraints, and protected-shell geometry. This is now the primary analytic bottleneck.
+2. **Complexity-drift / No-Zeno theorem.** Noetherian finite contact eliminates arbitrarily high reset flatness on a fixed shell pair. Show that a Zeno chain whose contact order grows must pay quantitatively for the required growth of shell cardinality / additive algebraic complexity.
+3. **Hidden-cancellation action.** On reset epochs with small opening acceleration, control the opening composition defect inside the heat-resonant cross-spin shell network; repeated cancellation must either densify, generate plane/cross closure, or fall into the zero-cost heat endpoint.
+4. **Periodic blow-up compactness / PDE closure.** Once source rigidity and complexity drift are controlled, connect the resulting bounds to a continuation or periodic minimal-singularity argument without importing an incompatible whole-space compactness theorem.
 
 ## Explicit non-claims
 

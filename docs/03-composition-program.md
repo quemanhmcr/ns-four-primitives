@@ -264,3 +264,27 @@ The primary remaining obstruction is temporal, not geometric. Exact protected st
 The missing theorem must show that repeated transitions from near-protected geometry to this barrier cannot occur on a summable sequence of time intervals while all opening/composition/nonplanarity actions remain within their finite budgets. This is the current **No-Zeno Protected Reset** problem.
 
 Flux fragmentation and global nonplanarity remain secondary branches only insofar as they are mechanisms by which a reset might try to make its cost arbitrarily small.
+
+### Lemma C1l — Defect-Growth Ledger — proved
+
+With `beta=2 nu^2/C_*^2`, the combined quantity `L=X+beta K` satisfies
+
+\[
+\mathscr L'\le 2E\Gamma_{\rm esc}-2\nu E\|\Lambda r\|_2^2-\nu(Z/E)\mathcal X.
+\]
+
+Therefore any unbounded critical escape forces infinite positive regeneration source `int E (Gamma_esc)_+ dt`. The No-Zeno problem is thereby reduced from burst timing to source rigidity. See `29-defect-growth-ledger.md`.
+
+### Lemma C1m — Transfer-moment source form — proved
+
+For modal Euler transfer rates `tau_i` and protected coordinates `t_i=|k_i|-a-b h_i`,
+
+\[
+2\kappa=\sum_i t_i\tau_i,\qquad 2\Gamma_{\rm esc}=\sum_i t_i^2\tau_i.
+\]
+
+Thus critical escape and defect regeneration are the first two moments of the same signed transfer distribution. See `30-transfer-moment-source.md`.
+
+### Lemma C1n — Noetherian finite-contact principle — proved for each fixed shell pair
+
+On a protected periodic shell pair there are only finitely many initial Fourier variables. The infinite collection of polynomial contact constraints `T F^(j)=0` generates a finitely generated ideal. Hence after a finite shell-dependent order, continued contact forces all higher contact jets to vanish; time analyticity then gives local protected persistence and `K'<0`. A Zeno sequence can increase contact order only by drifting to shell networks of increasing algebraic complexity. See `31-noetherian-contact-finiteness.md`.
