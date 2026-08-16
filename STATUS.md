@@ -30,6 +30,8 @@
   \\]
 - Exact critical-amplitude shortcut identity: for a same-spin backbone with `a_j=sqrt(k_j)|z_j|`, adjacent products `pi_j=a_j a_{j+1}` and two-step products `beta_j=a_j a_{j+2}` satisfy `beta_j beta_{j+1}=pi_j pi_{j+2}`; uniformly strong adjacent products therefore forbid two consecutive weak two-step shortcuts.
 - Exact Resonant Diamond Cross-Closure Lemma: two equal-heat same-spin decompositions of one output with nonzero radial defect and different pair planes necessarily generate a quantitative same-spin cross-output coefficient; the equal-rate sphere is therefore not closed under plane-dispersed cancellation.
+- Zero-Defect Active-Frame Rigidity: on a connected nondegenerate finite handoff graph, vanishing normalized bridge/cross-closure obstructions force every handoff plane to equal one global plane; with edge defects `<= epsilon` and graph diameter `D`, all planes lie within `D arcsin(epsilon)` of a root plane.
+- Strong-Handoff Path Compactness: in a scale-normalized local packet with critical mass `M`, a path whose adjacent critical parent products are all at least `P` has length at most `M/P`; a handoff carrying normalized production `>= kappa_0` has `P >= kappa_0/(C sqrt(M))`.
 - Quantitative two-rate parabolic observability/control inequality on one scale-invariant parabolic window.
 - Exact resonant-sphere selection factor for same-spin inputs, including the `|sin 2 theta|` angular gate.
 - Exact complex Spin-Shadow law with double-angle pair-plane phase twist.

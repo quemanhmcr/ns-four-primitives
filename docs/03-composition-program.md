@@ -165,6 +165,16 @@ Hence a backbone with `pi_j >= P` cannot have two consecutive skip-one products 
 
 Inside one equal-heat midpoint sphere, two same-spin decompositions with different pair planes force a quantitative cross-output same-spin coefficient unless the original radial/angular Selection factors degenerate. Thus heat resonance plus plane dispersion cannot remain closed at one output; avoiding leakage requires further convolution closure.
 
+### Lemma C1e — Active-frame planar rigidity — proved at finite-frame level
+
+Package sequential and resonant-cancellation handoffs into a projective plane graph. The normalized bridge/cross-closure coefficients control the sine of the projective angle on every graph edge. Therefore zero defect on a connected finite frame forces one exact global plane; if every edge defect is at most `epsilon` and graph diameter is `D`, all planes lie within `D arcsin(epsilon)` of a root plane.
+
+The remaining issue is critical active-frame compactness: rule out escape through graph diameter tending to infinity while local edge defects tend to zero.
+
+### Lemma C1f — Strong-path compactness — proved
+
+Inside a normalized local frequency window with total critical mass `M`, any handoff carrying fixed normalized production has a critical parent product bounded below by `kappa_0/(C sqrt(M))`. A path with adjacent critical products `>= P` has length at most `M/P`. Hence unbounded active-frame diameter cannot be carried by uniformly strong handoffs at bounded local critical mass; the remaining compactness branch is flux fragmentation among many weak handoffs.
+
 ### Lemma C2 — Plane propagation / plane turning — open
 
 Show that the large-additive-energy branch cannot preserve scale-critical positive flux across infinitely many generations without a non-summable loss in phase/projective compatibility.
