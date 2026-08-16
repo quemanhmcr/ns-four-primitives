@@ -722,3 +722,141 @@ This formula quantitatively unifies the two instantaneous critical-production ga
 - if one sector is monochromatic but the other is broadband, the defect remains positive through the mean-frequency term of the opposite sector.
 
 Thus the Gram residual is not merely qualitatively equivalent to the separate spin/radial conditions. It is their exact regression coupling.
+
+## 14. Regression coefficients and the two optimal helical shells
+
+The statistical interpretation also fixes the admissible range of the minimizing coefficients.
+
+The least-squares regression of
+
+\[
+R
+\quad\text{against}\quad
+SR
+\]
+
+with an intercept has coefficients
+
+\[
+\boxed{
+b
+=\frac{\operatorname{Cov}(R,SR)}
+{\operatorname{Var}(SR)},
+\qquad
+a=\mathbb E R-b\,\mathbb E(SR).
+}
+\]
+
+Since `R>=0`,
+
+\[
+|\mathbb E(SR)|\le\mathbb E R.
+\]
+
+Moreover `R` and `SR` have the same second moment, so
+
+\[
+\operatorname{Var}(SR)-\operatorname{Var}(R)
+=(\mathbb E R)^2-(\mathbb E SR)^2
+\ge0.
+\]
+
+Cauchy-Schwarz therefore yields
+
+\[
+|\operatorname{Cov}(R,SR)|
+\le
+\sqrt{
+\operatorname{Var}(R)
+\operatorname{Var}(SR)
+}
+\le
+\operatorname{Var}(SR).
+\]
+
+Hence
+
+\[
+\boxed{|b|\le1.}
+\]
+
+Also
+
+\[
+a=\mathbb E R-b\mathbb E(SR)
+\]
+
+gives
+
+\[
+\boxed{
+0\le a\le2\mathbb E R=\frac{2K}{E}.
+}
+\]
+
+On the nondegenerate two-spin branch one has `|b|<1` and `a>0`. Define the two optimal helical shell radii
+
+\[
+\boxed{
+m_+:=\frac a{1-b},
+\qquad
+m_-:=\frac a{1+b}.
+}
+\]
+
+They are positive, and the residual splits orthogonally by helicity as
+
+\[
+\boxed{
+r_+
+=(1-b)(\Lambda-m_+)u_+,
+}
+\]
+
+\[
+\boxed{
+r_-
+=(1+b)(\Lambda-m_-)u_-.
+}
+\]
+
+Therefore
+
+\[
+\boxed{
+\mathcal Y
+=(1-b)^2
+\|(\Lambda-m_+)u_+\|_2^2
++(1+b)^2
+\|(\Lambda-m_-)u_-\|_2^2.
+}
+\]
+
+The optimal protected defect is exactly a weighted distance to two dynamically chosen positive helical shells. The weights degenerate only as the regression approaches the pure-spin boundary `b=+/-1`, precisely where one helicity sector ceases to require radial centering for instantaneous critical protection.
+
+## 15. Near-protected concentration
+
+For `lambda>0`, define the off-shell energy in sector `sigma` by
+
+\[
+E_{\sigma,\rm off}(\lambda)
+:=
+\sum_{
+|\,|k|-m_\sigma|\ge\lambda}
+|z_\sigma(k)|^2.
+\]
+
+The exact decomposition above gives the Markov bound
+
+\[
+\boxed{
+E_{\sigma,\rm off}(\lambda)
+\le
+\frac{\mathcal Y}
+{(1-b\sigma)^2\lambda^2}
+}
+\]
+
+whenever `1-b sigma !=0`.
+
+Thus small optimal defect quantitatively concentrates each nondegenerate helicity sector into a thin annulus around its optimal shell. Near the pure-spin boundary the corresponding weight degenerates, matching the fact that arbitrary radial structure in the surviving single-spin sector is instantaneously protected from critical Euler production.
