@@ -56,6 +56,11 @@
 - Joint spin-volume danger action `J=sqrt(B)(det A)^(1/3)`, with `0<=J<=K^2/3`, finite lifetime action, and exact combined source/parabolic-damping balance.
 - Exact within-spin radial gate `R_rad=sum_sigma(E_sigma Z_sigma-K_sigma^2)`: `R_rad=0` forces `kappa=0`; each sector width has exact balance `W_sigma'=2 Gamma_sigma-2 nu H_sigma` and Riccati damping, while `int R_rad dt <= E(0)^2/(4 nu)`.
 - Full three-gate geometry factor `G=sqrt(r_rad) sqrt(b_spin) V^(1/3)` and finite-action scalar `J_full=(K^2/3)G`, vanishing on the radial, pure-spin, or planar safe/depleted boundaries.
+- Optimal protected escape residual `r=Lambda u-a u-b omega`, the orthogonal projection defect of the critical gradient away from the energy-helicity conservation span. It satisfies `kappa=<r,F>`, a Gram-determinant formula, exact Riccati/linear viscous damping, and the sharpened barrier
+  \\[
+  |\nu_E|\le C_*\sqrt{K\chi_{\rm esc}},\qquad
+  K'>0\Rightarrow E\|r\|_2^2>(\nu^2/C_*^2)K.
+  \\]
 - Conceptual separation between pair forcing and modal energy transfer.
 
 ## Structural reductions currently used

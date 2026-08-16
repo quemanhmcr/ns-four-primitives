@@ -205,6 +205,18 @@ For each helicity sector, center the radial spectrum at `m_sigma=K_sigma/E_sigma
 
 vanishes only when both sectors are individually monochromatic; in that case the exact energy/helicity collapse forces `kappa=0`. The widths satisfy exact viscous Riccati balances. Combining this radial gate with the spin and planarity factors gives a finite-action three-gate geometry variable. See `20-within-spin-radial-gate.md`.
 
+### Lemma C1j — Optimal protected escape defect — proved
+
+Project `Lambda u` orthogonally away from the two Euler-conservation directions `u,omega`: `r=Lambda u-a u-b omega`. Then `kappa=<r,F>` exactly. The critical defect `X=E||r||_2^2` has finite action and exact Riccati/linear viscous damping, while
+
+\[
+|\nu_E|\le C_*\sqrt{K\chi_{\rm esc}},
+\qquad
+\chi_{\rm esc}=\|r\|_2^2/Z.
+\]
+
+Thus `K'>0` forces `X>(nu^2/C_*^2)K`. The residual is a Gram-determinant quotient and its zero set unifies pure-spin and within-spin monochromatic protection. See `21-optimal-protected-escape-defect.md`.
+
 ### Lemma C2 — Plane propagation / plane turning — open
 
 Show that the large-additive-energy branch cannot preserve scale-critical positive flux across infinitely many generations without a non-summable loss in phase/projective compatibility.
