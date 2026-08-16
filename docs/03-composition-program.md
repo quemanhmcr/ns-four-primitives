@@ -124,8 +124,18 @@ The zero-curvature exceptional set consists exactly of rectangular additive diam
 
 At a fixed output, pair products carry viscous rates `lambda_ab=|a|^2+|b|^2`. Persistent cancellation under pure viscosity is possible only after cancellation is resolved separately inside each equal-rate class. For `a+b=r`, these classes are spheres centered at `r/2`. See `07-pair-heat-observability.md`.
 
-### Lemma C — Resonant-Sphere Dense Composition Rigidity
+### Lemma C1 — Complex Spin-Shadow plane rigidity — proved
+
+For same-spin pairs sharing one output, the full complex ratio is
+
+\[
+C_{\rm sh}/C_{\rm cat}=((S+\rho)/(S-\rho))e^{-2is\phi}.
+\]
+
+Thus catalyst coherence plus small shadow composition forces concentration of pair-plane orientations; the coordinate-free defect is measured by a projective plane-order tensor. See `08-complex-spin-shadow.md`.
+
+### Lemma C2 — Plane propagation / plane turning — open
 
 Show that the large-additive-energy branch cannot preserve scale-critical positive flux across infinitely many generations without a non-summable loss in phase/projective compatibility.
 
-Lemma B, the parabolic split, and the exact pair-heat observability kernel are now established. The current research bottleneck is to control the nonlinear compensation cost between separated heat-rate classes and then prove rigidity of the resonant midpoint-sphere network. A scale-invariant closure of those two branches, followed by a standard PDE continuation argument, is the current research program.
+Lemma B, the parabolic split, and the exact pair-heat observability kernel are now established. The current research bottleneck is to control the nonlinear compensation cost between separated heat-rate classes and to prove that the locally preferred planes forced by resonant cancellation either lock into the globally regular planar endpoint or incur a quantitative plane-turning cost. A scale-invariant closure of those two branches, followed by a standard PDE continuation argument, is the current research program.
