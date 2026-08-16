@@ -24,6 +24,10 @@
   \]
 - Exact parabolic transversality identity for two-pair cancellation; zero viscous curvature occurs exactly on rectangular additive diamonds.
 - Exact pair-heat observability theorem: persistent cancellation under pure viscosity splits class-by-class by equal pair heat rate; the unobservable classes are midpoint spheres.
+- Exact Plane-Turning Bridge Lemma: two consecutive nondegenerate same-spin handoff planes turning by `delta` force the cross-generation coefficient
+  \\[
+  |C_{\rm bridge}|\ge (r-k)\sin\theta_1\sin\theta_2|\sin\delta|/\sqrt2.
+  \\]
 - Quantitative two-rate parabolic observability/control inequality on one scale-invariant parabolic window.
 - Exact resonant-sphere selection factor for same-spin inputs, including the `|sin 2 theta|` angular gate.
 - Exact complex Spin-Shadow law with double-angle pair-plane phase twist.

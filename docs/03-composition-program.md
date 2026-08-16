@@ -138,6 +138,19 @@ C_{\rm sh}/C_{\rm cat}=((S+\rho)/(S-\rho))e^{-2is\phi}.
 
 Thus catalyst coherence plus small shadow composition forces concentration of pair-plane orientations; the coordinate-free defect is measured by a projective plane-order tensor. See `08-complex-spin-shadow.md`.
 
+### Lemma C1b — Plane-Turning Bridge — proved
+
+For consecutive same-spin backbone modes `K,Q,R`, a projective turn `delta` between the two handoff planes forces the cross-generation pair `R,-K` to have
+
+\[
+|C_{\rm bridge}|
+\ge
+\frac{r-k}{\sqrt2}
+\sin\theta_1\sin\theta_2|\sin\delta|.
+\]
+
+Thus definite turning of two nondegenerate local handoffs creates an order-frequency shortcut coupling. Avoiding actual bridge leakage requires applying the same full-output composition machinery at the bridge output.
+
 ### Lemma C2 — Plane propagation / plane turning — open
 
 Show that the large-additive-energy branch cannot preserve scale-critical positive flux across infinitely many generations without a non-summable loss in phase/projective compatibility.
