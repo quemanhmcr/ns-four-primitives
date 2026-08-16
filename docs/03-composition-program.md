@@ -217,6 +217,16 @@ Project `Lambda u` orthogonally away from the two Euler-conservation directions 
 
 Thus `K'>0` forces `X>(nu^2/C_*^2)K`. The residual is a Gram-determinant quotient and its zero set unifies pure-spin and within-spin monochromatic protection. See `21-optimal-protected-escape-defect.md`.
 
+### Lemma C1k — Optimal-defect triad source factorization — proved
+
+Freeze the globally minimizing protected multiplier `T=Lambda-a-b curl`. On one helical triad the quadratic defect weight is `q_sigma(k)=((1-b sigma)k-a)^2`. Homochiral Euler production factors into a full radial Vandermonde, while a heterochiral same-spin handoff has
+
+\[
+\dot{\mathcal Y}_\triangle=(k-q)J\,\mathfrak B_{a,b}(k,q,p),
+\]
+
+so it uses exactly the same radial transfer current as `dot K_triangle`. The coefficient is the failure of the opposite-spin defect weight to lie on the affine secant through the two same-spin endpoint weights. See `22-optimal-defect-triad-source.md`.
+
 ### Lemma C2 — Plane propagation / plane turning — open
 
 Show that the large-additive-energy branch cannot preserve scale-critical positive flux across infinitely many generations without a non-summable loss in phase/projective compatibility.

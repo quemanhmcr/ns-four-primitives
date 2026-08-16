@@ -61,6 +61,7 @@
   |\nu_E|\le C_*\sqrt{K\chi_{\rm esc}},\qquad
   K'>0\Rightarrow E\|r\|_2^2>(\nu^2/C_*^2)K.
   \\]
+- Exact triad source factorization for the optimal defect: homochiral recharge carries a three-radial-difference Vandermonde; heterochiral recharge carries the same `(q-k)J` current as critical production, with an explicit signed-spectral secant-curvature coefficient.
 - Conceptual separation between pair forcing and modal energy transfer.
 
 ## Structural reductions currently used
