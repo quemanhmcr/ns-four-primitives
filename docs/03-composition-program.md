@@ -237,6 +237,18 @@ r_t=TF,\qquad \mathcal Y''=2\|TF\|_2^2.
 
 Thus zero acceleration is exactly `TF=0`, a two-shell convolution-closure condition. Same-spin pair forcing vanishes identically on those shells, so only cross-spin pairs can reopen the defect. The general helical coefficient shows that an individual noncollinear cross-spin pair is acceleration-invisible only in the equal-shell/equilateral-radius geometry; otherwise avoiding opening requires multi-pair cancellation. See `23-protected-manifold-acceleration.md` and `24-general-helical-and-protected-leakage.md`.
 
+### Lemma C1m — Protected output moments and contact hierarchy — proved
+
+At a nondegenerate protected instant, actual nonlinear forcing obeys
+
+\[
+\kappa'=\langle F,TF\rangle,
+\qquad
+\mathcal Y''=2\|TF\|_2^2,
+\]
+
+so growth acceleration and gate-opening acceleration are the first two moments of the exact post-cancellation output distribution. More generally, if the first nonzero protected forcing jet is `TF^(n-1)`, then the first nonzero defect derivative is the positive even derivative `Y^(2n)=binom(2n,n)||TF^(n-1)||^2`. See `25-protected-output-moment-hierarchy.md` and `26-protected-contact-hierarchy.md`.
+
 ### Lemma C2 — Global source / fragmentation rigidity — open
 
 The remaining obstruction is no longer an unidentified geometric channel. It is the global summation/compactness problem for two exact sources:

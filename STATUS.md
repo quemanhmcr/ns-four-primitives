@@ -68,6 +68,12 @@
   \\]
   so zero opening acceleration is exactly the two-shell convolution-closure condition `TF=0`; viscosity contributes no opening acceleration.
 - General arbitrary-helicity coefficient magnitude and protected cross-spin leakage: same-spin pairs vanish pairwise on the protected shells; every noncollinear cross-spin pair creates nonzero `TF` in at least one output helicity unless the two shell radii and output radius are all equal.
+- Protected output moment hierarchy: at a protected instant, `kappa'=<F,TF>` and `Y''=2||TF||^2`; these are the first and second signed moments of the actual nonlinear forcing relative to the protected shell coordinate, with `|kappa'|^2 <= ||F||^2 Y''/2`.
+- Higher-order protected contact hierarchy: if `TF^(j)=0` for `j<n-1` and `TF^(n-1) != 0`, then the first nonzero defect derivative is
+  \\[
+  \mathcal Y^{(2n)}=\binom{2n}{n}\|TF^{(n-1)}\|_2^2>0,
+  \\]
+  and viscosity does not contribute to the first nonzero opening jet.
 - Conceptual separation between pair forcing and modal energy transfer.
 
 ## Structural reductions currently used
